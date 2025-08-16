@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "Echo - Back and forth with a privacy you deserve. Full-featured chat application with authentication, direct messaging, and persistent storage",
   "private": true,
+  "homepage": ".",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "@splinetool/runtime": "^1.10.48",
     "@testing-library/jest-dom": "^5.17.0",
