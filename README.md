@@ -1,4 +1,4 @@
-# Echo - Back and forth with a privacy you deserve
+# RLVNT
 
 A modern, real-time chat application built with React, Firebase, and Tailwind CSS. This application demonstrates the evolution from an MVP to a production-ready chat platform with authentication, direct messaging, and persistent storage.
 
