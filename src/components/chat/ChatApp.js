@@ -3,7 +3,8 @@ import { useAuth } from '../../contexts/AuthContext';
 import Sidebar from './Sidebar';
 import ChatArea from './ChatArea';
 import NewChatModal from './NewChatModal';
-import { LogOut, Plus, User } from 'lucide-react';
+import { LogOut, Plus, User, Github, Linkedin } from 'lucide-react';
+import ThemeToggle from '../ui/ThemeToggle';
 import { getUserDisplayName } from '../../utils/userUtils';
 import ProfileModal from '../profile/ProfileModal';
 
