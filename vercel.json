@@ -7,6 +7,13 @@
       "config": {
         "distDir": "build"
       }
+    },
+    {
+      "src": "src/index.js",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
   ],
   "routes": [
@@ -15,12 +22,10 @@
       "dest": "/static/$1"
     },
     {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "build"
 }

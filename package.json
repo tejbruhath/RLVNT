@@ -5,7 +5,8 @@
   "private": true,
   "homepage": ".",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "dependencies": {
     "@splinetool/runtime": "^1.10.48",
