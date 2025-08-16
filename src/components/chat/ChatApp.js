@@ -1,12 +1,10 @@
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { useTheme } from '../../contexts/ThemeContext';
 import Sidebar from './Sidebar';
 import ChatArea from './ChatArea';
 import NewChatModal from './NewChatModal';
-import { LogOut, Plus, User, MessageCircle, Github, Linkedin } from 'lucide-react';
+import { LogOut, Plus, User } from 'lucide-react';
 import { getUserDisplayName } from '../../utils/userUtils';
-import ThemeToggle from '../ui/ThemeToggle';
 import ProfileModal from '../profile/ProfileModal';
 
 const ChatApp = ({
@@ -24,7 +22,7 @@ const ChatApp = ({
   onOpenProfileModal
 }) => {
   const { user, userProfile } = useAuth();
-  const { isDarkMode } = useTheme();
+  // Theme context is used for dark mode styling
 
 
 

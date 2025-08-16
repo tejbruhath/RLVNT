@@ -103,3 +103,4 @@ firebase-debug.log
 
 # PM2
 ecosystem.config.js.bak
+.vercel

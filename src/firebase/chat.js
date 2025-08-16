@@ -261,7 +261,6 @@ export const searchUsers = async (searchTerm, currentUserId) => {
 };
 
 // Mark messages as read
-// eslint-disable-next-line no-unreachable
 export const markMessagesAsRead = async (chatId, userId) => {
   try {
     // This would typically update a 'readBy' field in messages
