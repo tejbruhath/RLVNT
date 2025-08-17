@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import './App.css';
 
 // Components
-import LandingPage from './components/landing/LandingPage';
 import Login from './components/auth/Login';
 import SignUp from './components/auth/SignUp';
 import ResponsiveChatApp from './components/chat/ResponsiveChatApp';
