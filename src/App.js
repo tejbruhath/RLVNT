@@ -38,7 +38,7 @@ function AppContent() {
                  />
           <Route 
             path="/" 
-            element={user ? <Navigate to="/chat" /> : <LandingPage onGetStarted={() => window.location.href = '/login'} />} 
+            element={<Navigate to="/login" replace />}
           />
         </Routes>
       </div>
