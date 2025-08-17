@@ -264,8 +264,8 @@ export const searchUsers = async (searchTerm, currentUserId) => {
 export const markMessagesAsRead = async (chatId, userId) => {
   try {
     // This would typically update a 'readBy' field in messages
-    // For now, we'll just return success
-    return { success: true };
+    const result = { success: true };
+    return result;
   } catch (error) {
     return { success: false, error: error.message };
   }
