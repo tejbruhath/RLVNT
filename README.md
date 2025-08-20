@@ -261,7 +261,8 @@ npx webpack-bundle-analyzer build/static/js/*.js
 4. Add tests if applicable
 5. Submit a pull request
 
-
+## License 
+- No license as of now , will get an MIT license by late aug25
 
 ## 🙏 Acknowledgments
 
